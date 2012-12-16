@@ -1,0 +1,194 @@
+@import url("../reset.css");
+
+html, body, #wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+body,h1,h2{
+    margin: 0;
+    padding:0;
+}
+
+body{
+
+    font-family: Helvetica,Arial;
+    font-size: 12px;
+
+}
+body > #wrapper {
+    height: auto;
+    min-height: 100%;
+    min-width: 800px;               /* must be same min-width footer */
+}
+
+
+
+#main {
+    padding-bottom: 30px;		/* must be same height as the footer */
+}
+#footer {
+
+    /* negative value of footer height */
+    margin-top: -30px;
+    height: 30px;
+    clear:both;
+    min-width: 800px;
+    width: 100%;
+    text-align:right;
+    vertical-align:middle;
+    text-shadow:2px aqua;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/* End hide from IE-mac */
+
+
+#header{
+    width: 100%;
+    height: 60px;
+
+}
+
+#menu{
+    width: 100%;
+    height: 20px;
+
+}
+#navbar{
+
+    width: 200px ; float: left;
+    padding: 0 15px;
+
+
+}
+
+#main_content{
+    text-align:justify;
+}
+
+
+#content{
+    min-width: 560px;
+    /*float: left;
+    position: absolute; left: 0px;*/
+}
+
+
+#footer .author{
+    color:white;
+    vertical-align: bottom;
+    text-align:center;
+
+}
+#footer .data{
+    /*border:1px solid;*/
+    /*float:left;
+    width:100%;  */
+
+}
+#footer .data span{
+    padding:5px 10px;
+    font-size:10px;
+
+}
+#footer .data a:active{color:white;}
+#footer .data a:visited{color:white;}
+#footer .data a:link{color:white;}
+
+
+#header .title_logo{
+    color:white;
+    /*padding-left:10px;*/
+}
+
+#header .title_logo a{text-decoration:none; color:transparent;}
+
+.article{
+    padding: 10px; margin-left: 220px; margin-right: 10px;
+}
+
+
+.header{
+    /*FireFox*/
+    background: -moz-linear-gradient(center top , #4DA1F8, #307DCD) repeat scroll 0 0 transparent;
+
+    /*Webkit Safari/ Chrome*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#4DA1F8), to(#307DCD));
+}
+.menu{
+    /*FireFox*/
+    background: -moz-linear-gradient(center top , #FFFFFF, #f1f1f1) repeat scroll 0 0 transparent;
+    /*Webkit Safari/ Chrome*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f1f1f1));
+    border-bottom:1px solid #C1C1C1;
+}
+.footer{
+    /*FireFox*/
+    background: -moz-linear-gradient(center top , #6B6B6B ,#4D4D4D) repeat scroll 0 0 transparent;
+    /*Wbekit Safari/ Chrome*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#6B6B6B), to(#4D4D4D));
+}
+
+.designed{      float:left; position:absolute; left:10px; }
+.powered{       float:right; position:relative; }
+.valid_links{   position:relative; float:right;}
+
+
+.test_div_blue, .test_div_red, .test_div_black{
+    width:100px; height:100px;
+    color:white; margin:auto;
+    margin-bottom:10px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.test_div_blue{
+    background-color:#3E98E2;
+    float:right;
+}
+.test_div_black{
+    background-color:#595959;
+    float:left;
+}
+
+.test_div_red{
+    background-color:#F27555;
+}
+
+
+
+.OrbitalZero{
+    text-align:center;
+    width:  215px;
+    height: 60px;
+
+    border:1px solid #C1C1C1;
+
+    background: -moz-linear-gradient(center top , #FFFFFF, #f1f1f1) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f1f1f1));
+}
+
+
+.jaehoo{
+    width: 100px;
+    height: 200px;
+    position:absolute;
+}
+
+

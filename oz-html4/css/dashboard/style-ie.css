@@ -1,0 +1,46 @@
+#navbar{
+/*margin-bottom:20px;    /*header + footer +menu, etc..*/
+}
+#main_content{
+
+/*margin-right:200px;*/
+/*width:100%;*/
+    padding-left: 230px;
+    margin-left: 0px;
+    position:relative;
+
+}
+
+#content{     width:100%;   }
+
+.ie_min_cont_width{
+    float:left;
+    width:570px;      /*Content - Padding and/or margin*/
+/*border:1px solid;*/  /* debug Ie fix min-width */
+    border:1px solid;
+}
+
+.ie_min_page_width{
+    width:800px;
+/*border:1px solid;*/
+}
+
+.header{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4DA1F8',endColorstr='#307DCD');
+
+}
+.menu{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#f1f1f1');
+}
+.footer{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6B6B6B',endColorstr='#4D4D4D');
+}
+
+.OrbitalZero{
+     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#f1f1f1');
+}
+
+.OrbitalZero  img{
+  width:  169px;
+  height: 48px;
+}
