@@ -150,7 +150,7 @@ function page(){
 
 
         // Load ie styles
-        Modernizr.load('ielt8!css/page/style-ie.css');
+        Modernizr.load('ielt9!css/page/style-ie.css');
 
         Modernizr.load({
             test: Modernizr.cssgradients,
