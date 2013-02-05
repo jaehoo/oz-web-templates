@@ -92,7 +92,7 @@ function loaderJs(){
 //        }
 //             );
         // Load ie styles
-        Modernizr.load('ielt8!css/dashboard/style-ie.css');
+        Modernizr.load('ielt9!ie9!css/dashboard/style-ie.css');
 
         Modernizr.load({
             test: Modernizr.cssgradients,
@@ -150,7 +150,7 @@ function page(){
 
 
         // Load ie styles
-        Modernizr.load('ielt9!css/page/style-ie.css');
+        Modernizr.load('ielt9!ie9!css/page/style-ie.css');
 
         Modernizr.load({
             test: Modernizr.cssgradients,
